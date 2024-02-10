@@ -1,0 +1,6 @@
+Xdv CHANGELOG
+-------------
+
+Version 1.0 (2024-02-11)
+
+	The first public release. Less than 120 lines of code :)
