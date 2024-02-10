@@ -133,4 +133,4 @@ THANKS
 
 HOME
 
-	https://angelofv0id.github.io/xdv
+	https://angelofv0id.github.io/Xdv

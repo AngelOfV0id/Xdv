@@ -51,7 +51,7 @@ void main(int argc, char** argv)	// Program entry - here the party begins
 	{
 		if (!strcmp(argv[1], "-v"))			// If '-v' key passed, display program version and exit
 		{
-			printf("Xdv - extreme directory navigator, version %s\nhttps://angelofv0id.github.io/xdv\n", VERSION);
+			printf("Xdv - extreme directory navigator, version %s\nhttps://angelofv0id.github.io/Xdv\n", VERSION);
 			return;
 		}
 		else SetCurrentDirectory(argv[1]);	// Use the only argument as the path of working directory (if it is path, of course)
