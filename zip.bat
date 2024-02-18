@@ -1,6 +1,6 @@
 @echo off
 
-set VERSION=1.0
+set VERSION=1.1
 
 set ARC=7z
 set ARCFLAGS=u -mx5

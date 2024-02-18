@@ -1,6 +1,6 @@
 @echo off
 
-set VERSION=\"1.0\"
+set VERSION=\"1.1\"
 
 set CC=tcc
 set DEFINES=-DVERSION=%VERSION%
