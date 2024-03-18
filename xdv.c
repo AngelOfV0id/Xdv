@@ -10,23 +10,23 @@
 
 #include "config.h"
 
-#define MAX_SIZE		65536
+#define MAX_SIZE        65536
 
-#define NAME			"Xdv - extreme directory navigator"
-#define COPYRIGHT		"Copyright (c) Ivan Movchan, 2023 - 2024"
-#define HOMEPAGE		"https://github.com/AngelOfV0id/Xdv"
+#define NAME            "Xdv - extreme directory navigator"
+#define COPYRIGHT       "Copyright (c) Ivan Movchan, 2023 - 2024"
+#define HOMEPAGE        "https://github.com/AngelOfV0id/Xdv"
 
-#define ARRAY			malloc(MAX_SIZE)
-#define LENGTH(ARRAY)	(sizeof ARRAY / sizeof ARRAY[0])
+#define ARRAY           malloc(MAX_SIZE)
+#define LENGTH(ARRAY)   (sizeof ARRAY / sizeof ARRAY[0])
 
-#define IS_DIR(F)		(F.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY)
+#define IS_DIR(F)       (F.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY)
 
-#define EXEC(CMD, F)	ShellExecute(NULL, CMD, F, NULL, NULL, SW_SHOWNORMAL)
+#define EXEC(CMD, F)    ShellExecute(NULL, CMD, F, NULL, NULL, SW_SHOWNORMAL)
 
 #define ERASE(COUNT)                \
 	printf("\r");                   \
 	for (int i = 0; i < COUNT; i++) \
-		printf(" ");				\
+		printf(" ");		        \
 	printf("\r");
 
 #define INDEXOF(ARRAY, ITEM, FROM_END)              \
@@ -38,7 +38,7 @@
 		{                                           \
 			if (ITEM == ARRAY[i])                   \
 			{                                       \
-				INDEX = i;							\
+				INDEX = i;                          \
 				break;                              \
 			};                                      \
 		};                                          \
